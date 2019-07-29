@@ -3,10 +3,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Notes
 
 Landing Page for IGO tools like Sample Submission and QC.
-https://github.com/mskcc/sample-submission-frontend
-https://github.com/mskcc/sample-submission-backend
-https://github.com/mskcc/igo-sample-qc-backend
-https://github.com/mskcc/igo-sample-qc-frontend
+- https://github.com/mskcc/sample-submission-frontend
+- https://github.com/mskcc/sample-submission-backend
+- https://github.com/mskcc/igo-sample-qc-backend
+- https://github.com/mskcc/igo-sample-qc-frontend
 
 ### `npm start`
 
