@@ -34,6 +34,9 @@ const styles = theme => ({
   },
   title: {
     margin: "0 auto"
+  },
+  avatar : {
+    position: "absolute",
   }
 });
 
