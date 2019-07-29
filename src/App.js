@@ -17,14 +17,15 @@ function App() {
         <Header />
         <div class="content">
           <Link
-            title="Sample Submission"
+            title="Sample Submission (beta)"
             source="https://igo.mskcc.org/sample-submission"
             icon="cloud_upload"
           />
           <Link
-            title="Sample QC"
+            disabled={true}
+            title="Sample QC (not yet available)"
             source="https://igo.mskcc.org/sample-submission"
-            icon="cloud_upload"
+            icon="check_circle"
           />
         </div>
       </MuiThemeProvider>

@@ -39,7 +39,7 @@ code {
     monospace;
 }
 
-a{
+a {
   text-decoration: none;
 }
 
@@ -48,16 +48,16 @@ a{
   grid-template-areas:
     "mskcc-header"
     "content";
-
   grid-row-gap: 4em;
 }
 .content {
   display: grid;
   width: 60vw;
   text-align: center;
-  margin: 0 auto;
+  margin: 5em auto;
   align-items: center;
   justify-items: center;
+  grid-template-columns: 50% 50%;
 }
 
 .link {
@@ -72,6 +72,26 @@ a{
   width: 150px;
   height: 150px;
   display: grid;
+
+  .title {
+    font-size: 0.4em;
+    color: #424242;
+  }
+}
+
+.disabled-link {
+  align-items: center;
+  justify-items: center;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+  color: $mskcc-dark-gray;
+  font-size: 3em;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  display: grid;
+  cursor: not-allowed;
 
   .title {
     font-size: 0.4em;
