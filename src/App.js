@@ -17,15 +17,22 @@ function App() {
         <Header />
         <div class="content">
           <Link
-            title="Sample Submission (beta)"
+            title="Sample Submission"
             source="https://igo.mskcc.org/sample-submission"
             icon="cloud_upload"
           />
           <Link
-            disabled={true}
-            title="Sample QC (not yet available)"
-            source="https://igo.mskcc.org/sample-submission"
+            // disabled={true}
+            title="Sample QC (Beta Testing)"
+            source="https://igo.mskcc.org/sample-qc-dev"
             icon="check_circle"
+          />
+
+          <Link
+            // disabled={true}
+            title="Sequencing/Run QC (Internal)"
+            source="https://igo.mskcc.org/run-qc"
+            icon="developer_board"
           />
         </div>
       </MuiThemeProvider>
