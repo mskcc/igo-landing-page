@@ -23,16 +23,23 @@ function App() {
           />
           <Link
             // disabled={true}
-            title="Sample QC (Beta Testing)"
+            title="Sample QC (β-Testing)"
             source="https://igo.mskcc.org/sample-qc-dev"
             icon="check_circle"
           />
 
           <Link
             // disabled={true}
-            title="Sequencing/Run QC (Internal)"
+            title="Sequencing/Run QC (IGO only)"
             source="https://igo.mskcc.org/run-qc"
             icon="developer_board"
+          /> 
+          
+          <Link
+            // disabled={true}
+            title="Swab 'n Seq Results"
+            source="https://igo.mskcc.org/swabnseq/"
+            icon="pie_chart"
           />
         </div>
       </MuiThemeProvider>
@@ -64,7 +71,8 @@ const styles = theme => ({
   content: {
     display: "grid",
     width: "60vw",
-    textAlign: "center"
+    textAlign: "center",
+    gridRowGap: "2em"
   },
   title: {
     margin: "0 auto"
