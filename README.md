@@ -2,7 +2,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Notes
 
-Landing Page for [igo.mskcc.org](igo.mskcc.org), linking to tools like Sample Submission and QC.
+Landing Page for [igo.mskcc.org](http://igo.mskcc.org), linking to tools like Sample Submission and QC.
 - https://github.com/mskcc/sample-submission-frontend
 - https://github.com/mskcc/sample-submission-backend
 - https://github.com/mskcc/igo-sample-qc-backend
