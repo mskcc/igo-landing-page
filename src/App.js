@@ -22,8 +22,8 @@ function App() {
             icon="cloud_upload"
           />
            <Link
-            // disabled={true}
-            title="Sample QC"
+            disabled={true}
+            title="Sample QC (coming 01/27/20)"
             source="https://igo.mskcc.org/sample-qc"
             icon="check_circle"
           />
@@ -64,9 +64,11 @@ const theme = createMuiTheme({
 const styles = theme => ({
   content: {
     display: "grid",
-    width: "60vw",
+    width: "70vw",
     textAlign: "center",
-    gridRowGap: "2em"
+    gridRowGap: "2em",
+    gridTemplateAreas: "'a b' 'c c'"
+
   },
   title: {
     margin: "0 auto"
