@@ -21,26 +21,20 @@ function App() {
             source="https://igo.mskcc.org/sample-submission"
             icon="cloud_upload"
           />
-          <Link
+           <Link
             // disabled={true}
-            title="Sample QC (β-Testing)"
-            source="https://igo.mskcc.org/sample-qc-dev"
+            title="Sample QC"
+            source="https://igo.mskcc.org/sample-qc"
             icon="check_circle"
           />
-
-          <Link
-            // disabled={true}
-            title="Sequencing/Run QC (IGO only)"
-            source="https://igo.mskcc.org/run-qc"
-            icon="developer_board"
-          /> 
-          
           <Link
             // disabled={true}
             title="Swab 'n Seq Results"
             source="https://igo.mskcc.org/swabnseq/"
             icon="pie_chart"
           />
+         
+       
         </div>
       </MuiThemeProvider>
     </div>
@@ -80,3 +74,13 @@ const styles = theme => ({
 });
 
 export default withStyles(styles)(App);
+
+
+
+
+   // <Link
+   //          // disabled={true}
+   //          title="Sequencing/Run QC (IGO only)"
+   //          source="https://igo.mskcc.org/run-qc"
+   //          icon="developer_board"
+   //        />

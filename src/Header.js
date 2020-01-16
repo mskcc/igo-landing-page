@@ -17,7 +17,7 @@ const Header = ({ classes, loggedIn }) => (
     <Toolbar>
       <Typography color="inherit" variant="h6" className={classes.title}>
         <img alt="mskcc logo" src={image} className={classes.avatar} />
-        Integrated Genomics Operation
+        <bold>IGO Market Place</bold>
       </Typography>
     </Toolbar>
   </AppBar>
