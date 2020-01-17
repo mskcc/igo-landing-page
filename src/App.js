@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "./Header";
-import logo from "./logo.svg";
+import image from "./igo_dark_gray.png";
 import Link from "./Link";
 import {
   MuiThemeProvider,
@@ -15,13 +15,13 @@ function App() {
     <div className="App">
       <MuiThemeProvider theme={theme}>
         <Header />
-        <div class="content">
+        <div className="content">
           <Link
             title="Sample Submission"
             source="https://igo.mskcc.org/sample-submission"
             icon="cloud_upload"
           />
-           <Link
+          <Link
             disabled={true}
             title="Sample QC (coming 01/27/20)"
             source="https://igo.mskcc.org/sample-qc"
@@ -33,10 +33,9 @@ function App() {
             source="https://igo.mskcc.org/swabnseq/"
             icon="pie_chart"
           />
-         
-       
         </div>
       </MuiThemeProvider>
+      
     </div>
   );
 }
@@ -68,7 +67,6 @@ const styles = theme => ({
     textAlign: "center",
     gridRowGap: "2em",
     gridTemplateAreas: "'a b' 'c c'"
-
   },
   title: {
     margin: "0 auto"
@@ -77,12 +75,9 @@ const styles = theme => ({
 
 export default withStyles(styles)(App);
 
-
-
-
-   // <Link
-   //          // disabled={true}
-   //          title="Sequencing/Run QC (IGO only)"
-   //          source="https://igo.mskcc.org/run-qc"
-   //          icon="developer_board"
-   //        />
+// <Link
+//          // disabled={true}
+//          title="Sequencing/Run QC (IGO only)"
+//          source="https://igo.mskcc.org/run-qc"
+//          icon="developer_board"
+//        />

@@ -6,14 +6,14 @@ import classNames from "classnames";
 
 const Link = ({ classes, title, icon, source, disabled }) =>
   disabled ? (
-    <a class="disabled-link">
+    <a className="disabled-link">
       <Icon style={{ fontSize: 80 }}>{icon}</Icon>
-      <span class="title">{title}</span>
+      <span className="title">{title}</span>
     </a>
   ) : (
-    <a target="_blank" href={source} class="link">
+    <a target="_blank" href={source} className="link">
       <Icon style={{ fontSize: 80 }}>{icon}</Icon>
-      <span class="title">{title}</span>
+      <span className="title">{title}</span>
     </a>
   );
 

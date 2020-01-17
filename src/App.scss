@@ -31,7 +31,12 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   width: 100vw;
+  height: 100vh;
   font-size: 15px;
+  background-color: $material-gray;
+  background-image: url("./images/contest419.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
 }
 
 code {
@@ -55,10 +60,13 @@ a {
   width: 60vw;
   text-align: center;
   margin: 5em auto;
+  padding: 3em;
   align-items: center;
   justify-items: center;
   grid-template-columns: 33% 33% 33%;
   // grid-template-areas: "a b" "c c";
+  background-color: rgba(255,255,255,.9);
+  border-radius: 5px;
 }
 
 .link {
@@ -97,5 +105,19 @@ a {
   .title {
     font-size: 0.4em;
     color: #424242;
+  }
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+  text-align: center;
+  background-color: white;
+  padding: 1em;
+
+  img {
+    max-height: 80px;
+    
   }
 }

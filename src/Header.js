@@ -17,7 +17,7 @@ const Header = ({ classes, loggedIn }) => (
     <Toolbar>
       <Typography color="inherit" variant="h6" className={classes.title}>
         <img alt="mskcc logo" src={image} className={classes.avatar} />
-        <bold>IGO Market Place</bold>
+        <strong>IGO Market Place</strong>
       </Typography>
     </Toolbar>
   </AppBar>
@@ -32,7 +32,7 @@ const styles = theme => ({
     textAlign: "center"
   },
   title: {
-    margin: "0 auto"
+    // margin: "0 auto"
   },
   avatar: {
     height: "2.5em",
