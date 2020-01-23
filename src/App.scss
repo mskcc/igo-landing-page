@@ -21,6 +21,16 @@ $mskcc-light-yellow: #ffe100;
 $mskcc-dark-gray: #9e9e98;
 $mskcc-light-gray: #d5d4c7;
 $material-gray: #eceff1;
+html {
+  background-image: url("./images/contest419.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
 
 body {
   margin: 0;
@@ -33,10 +43,7 @@ body {
   width: 100vw;
   height: 100vh;
   font-size: 15px;
-  background-color: $material-gray;
-  background-image: url("./images/contest419.jpg");
-  background-repeat: no-repeat;
-  background-size: 100% auto;
+  // background-color: $material-gray;
 }
 
 code {
@@ -65,7 +72,7 @@ a {
   justify-items: center;
   grid-template-columns: 33% 33% 33%;
   // grid-template-areas: "a b" "c c";
-  background-color: rgba(255,255,255,.9);
+  background-color: rgba(255, 255, 255, 0.9);
   border-radius: 5px;
 }
 
@@ -86,6 +93,15 @@ a {
     font-size: 0.4em;
     color: #424242;
   }
+}
+.blue {
+  color: $mskcc-medium-blue;
+}
+.green {
+  color: $mskcc-light-green;
+}
+.yellow {
+  color: $mskcc-light-orange;
 }
 
 .disabled-link {
@@ -118,6 +134,11 @@ a {
 
   img {
     max-height: 80px;
-    
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .content {
+    grid-template-columns: 100%;
   }
 }

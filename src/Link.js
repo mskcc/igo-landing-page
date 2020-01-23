@@ -4,14 +4,14 @@ import Icon from "@material-ui/core/Icon";
 
 import classNames from "classnames";
 
-const Link = ({ classes, title, icon, source, disabled }) =>
+const Link = ({ classes, style, title, icon, source, disabled }) =>
   disabled ? (
     <a className="disabled-link">
       <Icon style={{ fontSize: 80 }}>{icon}</Icon>
       <span className="title">{title}</span>
     </a>
   ) : (
-    <a target="_blank" href={source} className="link">
+    <a target="_blank" href={source} className={"link " + style}>
       <Icon style={{ fontSize: 80 }}>{icon}</Icon>
       <span className="title">{title}</span>
     </a>

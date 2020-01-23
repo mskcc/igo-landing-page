@@ -17,20 +17,22 @@ function App() {
         <Header />
         <div className="content">
           <Link
-            title="Sample Submission"
+            title="Sample Submission (Rex)"
             source="https://igo.mskcc.org/sample-submission"
+            style="blue"
             icon="cloud_upload"
           />
           <Link
-            disabled={true}
-            title="Sample QC (coming 01/27/20)"
+            title="Sample QC"
             source="https://igo.mskcc.org/sample-qc"
+            style="green"
             icon="check_circle"
           />
           <Link
             // disabled={true}
             title="Swab 'n Seq Results"
             source="https://igo.mskcc.org/swabnseq/"
+            style="yellow"
             icon="pie_chart"
           />
         </div>
