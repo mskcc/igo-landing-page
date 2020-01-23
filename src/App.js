@@ -23,7 +23,7 @@ function App() {
             icon="cloud_upload"
           />
           <Link
-            title="Sample QC"
+            title="Sample QC "
             source="https://igo.mskcc.org/sample-qc"
             style="green"
             icon="check_circle"

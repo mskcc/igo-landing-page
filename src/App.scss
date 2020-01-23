@@ -85,9 +85,10 @@ a {
   color: $mskcc-medium-blue;
   font-size: 3em;
   border-radius: 50%;
-  width: 180px;
-  height: 180px;
+  min-width: 180px;
+  min-height: 180px;
   display: grid;
+
 
   .title {
     font-size: 0.4em;
