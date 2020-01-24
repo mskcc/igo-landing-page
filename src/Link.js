@@ -1,17 +1,15 @@
-import React, { Component } from "react";
-import { Typography, withStyles } from "@material-ui/core";
+import React from "react";
+import { withStyles } from "@material-ui/core";
 import Icon from "@material-ui/core/Icon";
 
-import classNames from "classnames";
-
-const Link = ({ classes, style, title, icon, source, disabled }) =>
+const Link = ({ classes, iconColor, title, icon, source, disabled }) =>
   disabled ? (
-    <a className="disabled-link">
+    <span className="disabled-link">
       <Icon style={{ fontSize: 80 }}>{icon}</Icon>
       <div className="title">{title}</div>
-    </a>
+    </span>
   ) : (
-    <a target="_blank" href={source} className={"link " + style}>
+    <a target="_blank"  rel="noopener noreferrer" href={source} className={"link " + iconColor}>
       <Icon style={{ fontSize: 80 }}>{icon}</Icon>
       <div className="title">{title}</div>
     </a>

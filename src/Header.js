@@ -1,14 +1,11 @@
-import React, { Component } from "react";
+import React from "react";
 import {
-  Avatar,
   AppBar,
   Toolbar,
-  Button,
   Typography,
   withStyles
 } from "@material-ui/core";
 
-import classNames from "classnames";
 import image from "./igo.png";
 
 const Header = ({ classes, loggedIn }) => (

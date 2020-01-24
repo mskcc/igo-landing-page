@@ -1,6 +1,5 @@
 import React from "react";
 import Header from "./Header";
-import image from "./igo_dark_gray.png";
 import Link from "./Link";
 import {
   MuiThemeProvider,
@@ -19,20 +18,20 @@ function App() {
           <Link
             title="Sample Submission (Rex)"
             source="https://igo.mskcc.org/sample-submission"
-            style="blue"
+            iconColor="blue"
             icon="cloud_upload"
           />
           <Link
             title="Sample QC "
             source="https://igo.mskcc.org/sample-qc"
-            style="green"
+            iconColor="green"
             icon="check_circle"
           />
           <Link
             // disabled={true}
             title="Swab 'n Seq Results"
             source="https://igo.mskcc.org/swabnseq/"
-            style="yellow"
+            iconColor="yellow"
             icon="pie_chart"
           />
         </div>
