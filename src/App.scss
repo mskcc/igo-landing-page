@@ -70,7 +70,8 @@ a {
   padding: 3em;
   align-items: center;
   justify-items: center;
-  grid-template-columns: 33% 33% 33%;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: "a a a" "b c d";
   // grid-template-areas: "a b" "c c";
   background-color: rgba(255, 255, 255, 0.9);
   border-radius: 5px;
@@ -88,7 +89,6 @@ a {
   min-width: 180px;
   min-height: 180px;
   display: grid;
-
 
   .title {
     font-size: 0.4em;
@@ -122,6 +122,15 @@ a {
   .title {
     font-size: 0.4em;
     color: #424242;
+  }
+}
+
+.igo-website {
+  grid-column: span 3;
+  img {
+    height: 70px;
+    width: auto;
+    margin-bottom: 10px;
   }
 }
 

@@ -6,7 +6,7 @@ import {
   createMuiTheme,
   withStyles
 } from "@material-ui/core/styles";
-
+import IgoIcon from "./igo-icon-orange.png";
 import "./App.scss";
 
 function App() {
@@ -15,6 +15,15 @@ function App() {
       <MuiThemeProvider theme={theme}>
         <Header />
         <div className="content">
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="http://genomics.mskcc.org/"
+            className=" link igo-website"
+          >
+            <img alt="igo logo" src={IgoIcon} />
+            <div className="title">IGO Website</div>
+          </a>{" "}
           <Link
             title="Sample Submission (Rex)"
             source="https://igo.mskcc.org/sample-submission"
@@ -36,7 +45,6 @@ function App() {
           />
         </div>
       </MuiThemeProvider>
-      
     </div>
   );
 }
