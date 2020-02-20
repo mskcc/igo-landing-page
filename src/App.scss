@@ -71,13 +71,17 @@ a {
   align-items: center;
   justify-items: center;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-areas: "a a a" "b c d";
+  // grid-template-areas: "a a a" "b c d";
   // grid-template-areas: "a b" "c c";
-  background-color: rgba(255, 255, 255, 0.9);
+  // background-color: rgba(255, 255, 255, 0.9);
   border-radius: 5px;
+  grid-row-gap: 2em;
 }
 
 .link {
+  background-color: rgba(255, 255, 255, 0.7);
+  height: 50px;
+  width: 50px;
   align-items: center;
   justify-items: center;
   align-content: center;
@@ -85,10 +89,11 @@ a {
   text-align: center;
   color: $mskcc-medium-blue;
   font-size: 3em;
-  border-radius: 50%;
+  border-radius: 8%;
   min-width: 180px;
   min-height: 180px;
   display: grid;
+
 
   .title {
     font-size: 0.4em;
@@ -149,6 +154,9 @@ a {
 
 @media only screen and (max-width: 900px) {
   .content {
-    grid-template-columns: 100%;
+    grid-template-columns: 1fr;
+  }
+  .igo-website{
+    grid-column: unset;
   }
 }
