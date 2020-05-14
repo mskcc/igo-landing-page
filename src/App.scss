@@ -22,7 +22,7 @@ $mskcc-dark-gray: #9e9e98;
 $mskcc-light-gray: #d5d4c7;
 $material-gray: #eceff1;
 html {
-  background-image: url("./images/contest419.jpg");
+  background-image: url("./images/contest0220.jpg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -62,6 +62,13 @@ a {
     "content";
   grid-row-gap: 4em;
 }
+.main {
+  display: grid;
+  width: 100vw;
+  height: 100vh;
+  align-items: end;
+  justify-items: end;
+}
 .content {
   display: grid;
   width: 60vw;
@@ -70,7 +77,7 @@ a {
   padding: 3em;
   align-items: center;
   justify-items: center;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   // grid-template-areas: "a a a" "b c d";
   // grid-template-areas: "a b" "c c";
   // background-color: rgba(255, 255, 255, 0.9);
@@ -79,7 +86,7 @@ a {
 }
 
 .link {
-  background-color: rgba(255, 255, 255, 0.7);
+  // background-color: rgba(255, 255, 255, 0.7);
   height: 50px;
   width: 50px;
   align-items: center;
@@ -97,7 +104,7 @@ a {
 
   .title {
     font-size: 0.4em;
-    color: #424242;
+    color: white;
   }
 }
 .blue {
@@ -131,7 +138,8 @@ a {
 }
 
 .igo-website {
-  grid-column: span 3;
+  // grid-column: span 3;
+
   img {
     height: 70px;
     width: auto;

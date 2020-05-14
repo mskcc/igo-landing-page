@@ -14,36 +14,37 @@ function App() {
     <div className="App">
       <MuiThemeProvider theme={theme}>
         <Header />
-        <div className="content">
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href="http://genomics.mskcc.org/"
-            className=" link igo-website"
-          >
-            <img alt="igo logo" src={IgoIcon} />
-            <div className="title">IGO Website</div>
-          </a>{" "}
-          <Link
-            title="Sample Submission (Rex)"
-            source="https://igo.mskcc.org/sample-submission"
-            iconColor="blue"
-            icon="cloud_upload"
-          />
-          <Link
-            title="Sample QC "
-            source="https://igo.mskcc.org/sample-qc"
-            iconColor="green"
-            icon="check_circle"
-          />
-          <Link
-            // disabled={true}
-            title="Swab 'n Seq Results"
-            source="https://igo.mskcc.org/swabnseq/"
-            iconColor="yellow"
-            icon="pie_chart"
-          />
-        </div>
+        <div className="main">
+          <div className="content">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="http://genomics.mskcc.org/"
+              className=" link igo-website"
+            >
+              <img alt="igo logo" src={IgoIcon} />
+              <div className="title">IGO Website</div>
+            </a>{" "}
+            <Link
+              title="Sample Submission (Rex)"
+              source="https://igo.mskcc.org/sample-submission"
+              iconColor="blue"
+              icon="cloud_upload"
+            />
+            <Link
+              title="Sample QC "
+              source="https://igo.mskcc.org/sample-qc"
+              iconColor="green"
+              icon="check_circle"
+            />
+            <Link
+              // disabled={true}
+              title="Swab 'n Seq Results"
+              source="https://igo.mskcc.org/swabnseq/"
+              iconColor="yellow"
+              icon="pie_chart"
+            />
+          </div></div>
       </MuiThemeProvider>
     </div>
   );
@@ -70,6 +71,9 @@ const theme = createMuiTheme({
   }
 });
 const styles = theme => ({
+  main: {
+    display: "grid",
+  },
   content: {
     display: "grid",
     width: "70vw",
