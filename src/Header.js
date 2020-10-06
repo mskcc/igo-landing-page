@@ -1,24 +1,20 @@
-import React, { Component } from "react";
+import React from "react";
 import {
-  Avatar,
   AppBar,
   Toolbar,
-  Button,
   Typography,
   withStyles
 } from "@material-ui/core";
 
-import classNames from "classnames";
-import image from "./msk.png";
+import image from "./igo.png";
 
 const Header = ({ classes, loggedIn }) => (
   // <div className={classes.mskccHeader}>
   <AppBar position="static" title={image} className={classes.header}>
     <Toolbar>
-      <Avatar alt="mskcc logo" src={image} className={classes.avatar} />
-
       <Typography color="inherit" variant="h6" className={classes.title}>
-        Integrated Genomics Operation
+        <img alt="mskcc logo" src={image} className={classes.avatar} />
+        <strong>IGO Marketplace</strong>
       </Typography>
     </Toolbar>
   </AppBar>
@@ -28,15 +24,18 @@ const Header = ({ classes, loggedIn }) => (
 
 const styles = theme => ({
   header: {
-    backgroundColor: theme.palette.primary.logo,
+    backgroundColor: theme.palette.secondary.main,
     color: "white",
     textAlign: "center"
   },
   title: {
-    margin: "0 auto"
+    // margin: "0 auto"
   },
-  avatar : {
-    position: "absolute",
+  avatar: {
+    height: "2.5em",
+    width: "auto",
+    verticalAlign: "middle",
+    marginRight: "1em"
   }
 });
 
