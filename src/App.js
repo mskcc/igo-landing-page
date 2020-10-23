@@ -12,10 +12,10 @@ function App() {
                 <Header />
                 <div className='main'>
                     <div className='content'>
-                        <a target='_blank' rel='noopener noreferrer' href='http://genomics.mskcc.org/' className=' link igo-website'>
-                            <img alt='igo logo' src={IgoIcon} />
+                        <a target='_blank' rel='noopener noreferrer' href='http://genomics.mskcc.org/' className='link igo-website'>
+                            <img className='icon' alt='igo logo' src={IgoIcon} />
                             <div className='title'>IGO Website</div>
-                        </a>{' '}
+                        </a>
                         <Link
                             title='Sample Submission (Rex)'
                             source='https://igo.mskcc.org/sample-submission'
@@ -23,23 +23,14 @@ function App() {
                             icon='cloud_upload'
                         />
                         <Link
-                            title='Request Tracker (Beta)'
+                            title='Request Tracker'
+                            isFa={true}
                             source='https://igo.mskcc.org/request-tracker'
                             iconColor='violet'
-                            icon='timeline_circle'
+                            icon='tasks'
                         />
-                        {/* <Link title='Request Tracker ' source='https://igo.mskcc.org/request-tracker' iconColor='violet' icon='insights' /> */}
-                        {/* <Link title='Request Tracker ' source='https://igo.mskcc.org/request-tracker' iconColor='violet' icon='explore' />
-                        <Link title='Request Tracker ' source='https://igo.mskcc.org/request-tracker' iconColor='violet' icon='alt_route' />
-                        <Link title='Request Tracker ' source='https://igo.mskcc.org/request-tracker' iconColor='violet' icon='view_week' /> */}
                         <Link title='Sample QC ' source='https://igo.mskcc.org/sample-qc' iconColor='green' icon='check_circle' />
-                        <Link
-                            // disabled={true}
-                            title="Swab 'n Seq Results"
-                            source='https://igo.mskcc.org/swabnseq/'
-                            iconColor='yellow'
-                            icon='pie_chart'
-                        />
+                        <Link title="Swab 'n Seq Results" source='https://igo.mskcc.org/swabnseq/' iconColor='yellow' icon='pie_chart' />
                     </div>
                 </div>
             </MuiThemeProvider>
