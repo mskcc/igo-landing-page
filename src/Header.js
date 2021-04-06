@@ -1,12 +1,7 @@
-import React from "react";
-import {
-  AppBar,
-  Toolbar,
-  Typography,
-  withStyles
-} from "@material-ui/core";
+import React from 'react';
+import { AppBar, Toolbar, Typography, withStyles } from '@material-ui/core';
 
-import image from "./igo.png";
+import image from './igo.png';
 
 const Header = ({ classes, loggedIn }) => (
   // <div className={classes.mskccHeader}>
@@ -22,21 +17,21 @@ const Header = ({ classes, loggedIn }) => (
   // </div>
 );
 
-const styles = theme => ({
+const styles = (theme) => ({
   header: {
     backgroundColor: theme.palette.secondary.main,
-    color: "white",
-    textAlign: "center"
+    color: 'white',
+    textAlign: 'center',
   },
   title: {
     // margin: "0 auto"
   },
   avatar: {
-    height: "2.5em",
-    width: "auto",
-    verticalAlign: "middle",
-    marginRight: "1em"
-  }
+    height: '2.5em',
+    width: 'auto',
+    verticalAlign: 'middle',
+    marginRight: '1em',
+  },
 });
 
 export default withStyles(styles)(Header);
