@@ -40,7 +40,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   width: 100vw;
-  height: 100vh;
+  // height: 100vh;
   font-size: 15px;
   // background-color: $material-gray;
 }
@@ -59,19 +59,20 @@ a {
     'mskcc-header'
     'content';
   grid-row-gap: 4em;
+  max-height: 100vh;
 }
 .main {
   display: grid;
   width: 100vw;
-  height: 100vh;
+  // height: 100vh;
   align-items: end;
   justify-items: end;
 }
 .content {
   display: flex;
-  width: 60vw;
+  width: 80vw;
   text-align: center;
-  margin: 10em auto;
+  margin: 6.5em auto;
   padding: 3em;
   align-items: center;
   justify-content: center;
@@ -125,6 +126,10 @@ a {
 }
 
 .violet {
+  color: $mskcc-light-violet;
+}
+
+.magenta {
   color: $mskcc-dark-magenta;
 }
 

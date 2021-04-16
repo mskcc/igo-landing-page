@@ -16,11 +16,12 @@ function App() {
               <img className="icon" alt="igo logo" src={IgoIcon} />
               <div className="title">IGO Website</div>
             </a>
-            <Link title="Sample Submission (Rex)" source="https://igo.mskcc.org/sample-submission" iconColor="blue" icon="cloud_upload" />
-            <Link title="Request Tracker" isFa={true} source="https://igo.mskcc.org/request-tracker" iconColor="violet" icon="tasks" />
+            <Link title="Sample Submission" source="https://igo.mskcc.org/sample-submission" iconColor="blue" icon="cloud_upload" />
+            <Link title="Request Tracker" isFa={true} source="https://igo.mskcc.org/request-tracker" iconColor="magenta" icon="tasks" />
             <Link title="Sample QC " source="https://igo.mskcc.org/sample-qc" iconColor="green" icon="check_circle" />
-            <Link title="Reservations " source="https://genomics.mskcc.org/reservations" iconColor="violet" icon="insert_invitation" />
-            <Link title="Swab 'n Seq Results" source="https://igo.mskcc.org/swabnseq/" iconColor="yellow" icon="pie_chart" />
+            <Link title="Reservations " source="https://genomics.mskcc.org/reservations" iconColor="green" icon="insert_invitation" />
+            <Link title="Careers" source="https://genomics.mskcc.org/careers/" iconColor="yellow" icon="business_center" />
+            <Link title="Swab 'n Seq Results" source="https://igo.mskcc.org/swabnseq/" iconColor="blue" icon="pie_chart" />
           </div>
         </div>
       </MuiThemeProvider>
