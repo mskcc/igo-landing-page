@@ -20,7 +20,7 @@ function App() {
             <Link title="Request Tracker" isFa={true} source="https://igo.mskcc.org/request-tracker" iconColor="magenta" icon="tasks" />
             <Link title="Sample QC " source="https://igo.mskcc.org/sample-qc" iconColor="green" icon="check_circle" />
             <Link title="Reservations " source="https://genomics.mskcc.org/" iconColor="green" icon="insert_invitation" />
-            <Link title="Careers" source="https://genomics.mskcc.org/careers/" iconColor="yellow" icon="business_center" />
+            <Link title="Careers" source="https://genomics.mskcc.org/careers/" iconColor="violet" icon="business_center" />
             <Link title="Swab 'n Seq Results" source="https://igo.mskcc.org/swabnseq/" iconColor="blue" icon="pie_chart" />
           </div>
         </div>
