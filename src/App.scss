@@ -22,7 +22,7 @@ $mskcc-dark-gray: #9e9e98;
 $mskcc-light-gray: #d5d4c7;
 $material-gray: #eceff1;
 html {
-  background-image: url('./images/contestHalloween2022.png');
+  background-image: url('./images/2023ContestWinnerCropped.png');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -73,12 +73,13 @@ a {
   width: 80vw;
   text-align: center;
   margin: 6.5em auto;
-  padding: 3em;
+  padding: 2em;
   align-items: center;
   justify-content: center;
   flex-direction: row;
   flex-wrap: wrap;
-  border-radius: 5px;
+  border-radius: 30px;
+  background-color: rgba(0,0,0,.35);
 }
 
 .link {
