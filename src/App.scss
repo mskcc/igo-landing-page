@@ -73,12 +73,13 @@ a {
   width: 80vw;
   text-align: center;
   margin: 6.5em auto;
-  padding: 3em;
+  padding: 2em;
   align-items: center;
   justify-content: center;
   flex-direction: row;
   flex-wrap: wrap;
-  border-radius: 5px;
+  border-radius: 30px;
+  background-color: rgba(0,0,0,.35);
 }
 
 .link {
