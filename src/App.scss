@@ -23,10 +23,10 @@ $mskcc-light-gray: #d5d4c7;
 $material-gray: #eceff1;
 html {
   background-image: url('./images/backgroundoctober.png');
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
