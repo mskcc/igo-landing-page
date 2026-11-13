@@ -31,7 +31,7 @@ function App() {
             <Link title="Run QC" source={runQCURL} iconColor="orange" icon="assignment" />
             <Link title="Reservations" source="https://genomics.mskcc.org/reservations" iconColor="green" icon="insert_invitation" />
             <Link title="Careers" source="https://genomics.mskcc.org/careers/" iconColor="violet" icon="business_center" />
-            <Link title="Swab 'n Seq Results" source="https://igo.mskcc.org/swabnseq" iconColor="blue" icon="pie_chart" />
+            <Link title="Open House" source="https://igo.mskcc.org/swabnseq" iconColor="blue" icon="pie_chart" />
           </div>
         </div>
       </MuiThemeProvider>
