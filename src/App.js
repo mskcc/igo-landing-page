@@ -3,6 +3,7 @@ import Header from './Header';
 import Link from './Link';
 import { MuiThemeProvider, createMuiTheme, withStyles } from '@material-ui/core/styles';
 import IgoIcon from './igo-icon-orange.png';
+import OpenHouseLogo from './open-house-logo.svg';
 import './App.scss';
 
 // Check if running on `igodev.mskcc.org` (QA) or `igo.mskcc.org` (Prod)
@@ -31,7 +32,10 @@ function App() {
             <Link title="Run QC" source={runQCURL} iconColor="orange" icon="assignment" />
             <Link title="Reservations" source="https://genomics.mskcc.org/reservations" iconColor="green" icon="insert_invitation" />
             <Link title="Careers" source="https://genomics.mskcc.org/careers/" iconColor="violet" icon="business_center" />
-            <Link title="Open House" source="https://igo.mskcc.org/swabnseq" iconColor="blue" icon="pie_chart" />
+            <a target="_blank" rel="noopener noreferrer" href="https://igo.mskcc.org/swabnseq" className="link open-house">
+              <img className="icon" alt="Open House" src={OpenHouseLogo} />
+              <div className="title">Open House</div>
+            </a>
           </div>
         </div>
       </MuiThemeProvider>
